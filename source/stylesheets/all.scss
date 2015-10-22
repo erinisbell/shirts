@@ -4,6 +4,11 @@
 @import "neat";
 
 
+section{
+  @include outer-container;
+  @include span-columns(12);
+}
+
 .rotate{
   float: right;
   width: 8%;
@@ -14,22 +19,25 @@
 }
 
 .shirt1 {
-  float: left;
-  max-width: 22%;
+  @include outer-container;
+  width: 22%;
   margin: 1.5%;
   border: 2.5px solid lightblue;
+  @include span-columns(3.5);
 }
 
 .shirt2 {
-  float: left;
+  @include outer-container;
   width: 22%;
   margin: 1.5%;
   border: 2.5px solid lightblue;
+  @include span-columns(3.5);
 }
 
 .shirt3 {
-  float: left;
+  @include outer-container;
   width: 22%;
   margin: 1.5%;
   border: 2.5px solid lightblue;
+  @include span-columns(3.5);
 }
