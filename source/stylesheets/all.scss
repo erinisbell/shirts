@@ -9,6 +9,14 @@ section{
   @include span-columns(12);
 }
 
+li {
+  color: lightblue;
+}
+
+li :hover{
+  color: blue;
+}
+
 .rotate{
   float: right;
   width: 8% inherit;
