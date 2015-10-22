@@ -1,8 +1,33 @@
 @charset "utf-8";
 @import "bourbon";
+@import "base/base";
 @import "neat";
 
 
-* {
-  background-color: white;
+
+
+
+.shirt1 {
+  float: left;
+  width: 28%;
+  margin: 5px;
+  border: 2.5px solid lightblue;
+}
+
+.shirt2 {
+  float: left;
+  width: 28%;
+  margin: 5px;
+  border: 2.5px solid lightblue;
+}
+
+.shirt3 {
+  float: left;
+  width: 28%;
+  margin: 5px;
+  border: 2.5px solid lightblue;
+}
+
+.btn{
+  float: right;
 }
