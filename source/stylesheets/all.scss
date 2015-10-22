@@ -9,7 +9,7 @@
 
 .shirt1 {
   float: left;
-  width: 28%;
+  max-width: 22%;
   margin: 5px;
   border: 2.5px solid lightblue;
 }
@@ -30,6 +30,7 @@
 
 .rotate{
   float: right;
+  width: 10%;
 }
 
 .arrows {
