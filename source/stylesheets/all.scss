@@ -4,8 +4,14 @@
 @import "neat";
 
 
+.rotate{
+  float: right;
+  width: 8%;
+}
 
-
+.arrows {
+  width: 20.3%;
+}
 
 .shirt1 {
   float: left;
@@ -16,23 +22,14 @@
 
 .shirt2 {
   float: left;
-  width: 28%;
+  width: 22%;
   margin: 5px;
   border: 2.5px solid lightblue;
 }
 
 .shirt3 {
   float: left;
-  width: 28%;
+  width: 22%;
   margin: 5px;
   border: 2.5px solid lightblue;
-}
-
-.rotate{
-  float: right;
-  width: 10%;
-}
-
-.arrows {
-
 }
