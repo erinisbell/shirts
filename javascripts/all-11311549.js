@@ -10347,9 +10347,18 @@ return jQuery;
 }));
 
 
+
+var swap = function(img) {
+    var current = img.attr("src");
+    var swap = img.attr("data-swap");
+    img.attr('src', swap).attr("data-swap",current);
+ }
+
 $(document).ready(() => {
-  $(".rotate").click((event) => {
-    $(event.data["target"]).changetheimage
-    if image is blue change to blue back;
+  var flips = ["flipOne", "flipTwo", "flipThree"]
+  flips.forEach((flip) => {
+    $("." + flip).click(() => {
+      swap($("#" + flip));
+    });
   });
 });
