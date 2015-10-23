@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem 'bourbon'
+gem 'jquery-middleman'
 gem 'middleman', "~>3.4.0"
 gem 'middleman-deploy', '~> 1.0'
 # Live-reloading plugin
