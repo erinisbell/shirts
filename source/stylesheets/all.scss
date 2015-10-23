@@ -4,6 +4,8 @@
 @import "neat";
 
 
+
+
 section{
   @include outer-container;
 }
@@ -29,16 +31,16 @@ li :hover{
   float: left;
   color: lightblue;
   font-size: 16pt;
-  font-family: Open Sans;
-    margin: 5%;
+   font-family: normal 'Roboto Condensed', sans-serif;
+  margin: 5%;
 }
 
 .monies {
   float: right;
   color: lightblue;
   font-size: 16pt;
-  font-family: Open Sans;
-  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 50%;
   margin: 5%;
 }
 
