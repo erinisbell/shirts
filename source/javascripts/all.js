@@ -8,7 +8,7 @@ var swap = function(img) {
  }
 
 $(document).ready(() => {
-  var flips = ["fa-flip-vertical1", "fa-flip-vertical2", "fa-flip-vertical3"]
+  var flips = ["flipOne", "flipTwo", "flipThree"]
   flips.forEach((flip) => {
     $("." + flip).click(() => {
       swap($("#" + flip));
