@@ -15,6 +15,14 @@ li {
 
 }
 
+.yellow{
+  color: yellow;
+}
+
+.pink{
+  color: #f365d0;
+}
+
 li :hover{
   color: blue;
 }
@@ -75,8 +83,8 @@ li :hover{
   $tooltip-max-width: 16em;
   $tooltip-arrow-width: 8px;
   $tooltip-shadow: 0 2px 2px silver;
-  $tooltip-distance-from-item: 3em;
-  $tooltip-arrow-distance-from-box: -1.3em;
+  $tooltip-distance-from-item: 3.1em;
+  $tooltip-arrow-distance-from-box: -1em;
 
   //background: $tooltip-background;
   //border-radius: $base-border-radius;
@@ -108,12 +116,12 @@ li :hover{
     //padding: 1em;
     text-align: center;
     visibility: hidden;
-    //z-index: 10;
+    z-index: 10;
 
     p {
       color: $base-font-color;
-      //line-height: $base-line-height;
-      //margin: 0;
+      line-height: $base-line-height;
+      margin: 0;
     }
 
     &:after {
