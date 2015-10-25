@@ -10361,4 +10361,7 @@ $(document).ready(() => {
       swap($("#" + flip));
     });
   });
+  $(".fa-shopping-cart").click(function(){
+   alert("No shirt for you. Come back one year.");
+ });
 });
